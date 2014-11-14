@@ -41,7 +41,7 @@
         <ul id="menu">
           <li class="@(new[] { "posts", "post", "tag", "category", "search" }.Contains(action) ? "selected" : "")">@Html.ActionLink("Posts", "Posts")</li>
           <li class="@(action == "contact" ? "selected" : "")">@Html.ActionLink("Contact", "Contact")</li>
-          <li class="@(action == "aboutme" ? "selected" : "")">@Html.ActionLink("About Me", "Aboutme")</li>
+          <li class="@(action == "aboutme" ? "selected" : "")">@Html.ActionLink("About Mark", "About")</li>
         </ul>
       </div>
     </div>

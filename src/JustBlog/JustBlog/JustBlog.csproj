@@ -161,6 +161,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Content Include="App_Readme\Elmah.txt" />
+    <Content Include="Content\mjg.jpg" />
     <Content Include="Content\photo.jpg" />
     <Content Include="Content\themes\simple\admin.css" />
     <Content Include="Content\themes\simple\images\arrow.png" />
@@ -1218,7 +1219,7 @@
     <Content Include="Content\themes\simple\jqueryuicustom\development-bundle\ui.tooltip.jquery.json" />
     <Content Include="Content\themes\simple\jqueryuicustom\development-bundle\ui.widget.jquery.json" />
     <None Include="Properties\PublishProfiles\Default.pubxml" />
-    <Content Include="Views\Blog\Aboutme.cshtml" />
+    <Content Include="Views\Blog\About.cshtml" />
     <Content Include="Views\Blog\Contact.cshtml" />
     <Content Include="Views\Blog\List.cshtml" />
     <Content Include="Views\Blog\Post.cshtml" />

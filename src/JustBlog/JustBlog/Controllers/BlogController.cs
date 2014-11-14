@@ -139,8 +139,8 @@ namespace JustBlog.Controllers
         using (var client = new SmtpClient())
         {
           var adminEmail = ConfigurationManager.AppSettings["AdminEmail"];
-          var from = new MailAddress(adminEmail, "JustBlog Messenger");
-          var to = new MailAddress(adminEmail, "JustBlog Admin");
+          var from = new MailAddress(adminEmail, "MJG Blog Messenger");
+          var to = new MailAddress(adminEmail, "MJG Blog Admin");
 
           using (var message = new MailMessage(from, to))
           {
@@ -167,7 +167,7 @@ namespace JustBlog.Controllers
     /// Return the About me page.
     /// </summary>
     /// <returns></returns>
-    public ViewResult Aboutme()
+    public ViewResult About()
     {
       return View();
     }
